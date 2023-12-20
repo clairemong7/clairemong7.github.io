@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+body {
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 250 251/var(--tw-bg-opacity));
+    font-family: 'Inter', sans-serif; 
+    padding: 20px
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav_items li {
+    display: inline-block;
+    padding: 2px 15px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav_items a {
+    text-decoration: none;
+    --tw-text-opacity: 1;
+    color: rgb(75 85 99/var(--tw-text-opacity));
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Projects a:hover, .nav_items li a:hover {
+    color: #476beb;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128/var(--tw-text-opacity));
+    font-size: 1.125rem;
+    font-weight: inherit;
+    text-align: center;
+}
+
+
+#mailto {
+    text-decoration: none;
+    color: #476beb;
+}
+
+button {
+    background-color: rgb(31, 113, 221);
+    border: none;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+.Projects {
+    padding: 20px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 250 251/var(--tw-bg-opacity));
+    font-family: 'Inter', sans-serif; 
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.box {
+   
+}
+
+.box:hover {
+    background-color: white;
 }
